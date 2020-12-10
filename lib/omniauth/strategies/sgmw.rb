@@ -3,7 +3,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Smgw < OmniAuth::Strategies::OAuth2
+    class Sgmw < OmniAuth::Strategies::OAuth2
       option :client_options, {
         site: 'http://10.5.1.21/security/oauth',
         authorize_url: 'http://10.5.1.21/security/oauth/authorize',
